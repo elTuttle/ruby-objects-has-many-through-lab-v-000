@@ -14,4 +14,10 @@ class Genre
     end
   end
 
+  def songs
+    @songs.each do |song|
+      song.genre = self
+    end
+  end
+
 end
