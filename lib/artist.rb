@@ -15,7 +15,7 @@ class Artist
   end
 
   def genres
-    @songs.genres
+    @songs.genre
   end
 
 end
