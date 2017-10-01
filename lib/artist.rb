@@ -22,5 +22,5 @@ class Artist
       @songs.genre
     end
   end
-  
+
 end
