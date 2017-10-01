@@ -8,15 +8,10 @@ class Genre
     @songs = []
   end
 
-  def artists
-    @songs.each do |song|
-      song.artist
-    end
-  end
-
   def songs
     @songs.each do |song|
       song.genre = self
+      @artists << song.artist
     end
   end
 
