@@ -9,11 +9,7 @@ class Artist
   end
 
   def add_song(song)
-    if song.class == Song
-      song.artist = self
-    else
-      song = Song.new(song)
-    end
+    song.artist = self
     @songs << song
   end
 
